@@ -1,0 +1,1 @@
+{"left":[{"id":"add_image"},{"id":"add_vector"},{"id":"add_text"}],"right":[{"id":"create_Brush"},{"id":"add_shape"},{"id":"add_effect"},{"id":"create_layer"}]}

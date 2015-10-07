@@ -1,0 +1,371 @@
+body{
+  margin: 0;
+  padding: 0;
+
+}
+#tool{
+  overflow: hidden;
+  width: 100%;
+  height: 675px;
+  background-color: #000;
+  float: left;
+}
+.fleft{
+	float: left;
+}
+/*------------------------------LEFT COLUM--------------------------------*/
+.leftcol{
+	height: 100%;
+	float: left;
+	background-color: #8BFF47;
+}
+
+/*------------------------------RIGHT COLUM-------------------------------*/
+.rightcol{
+	height: 100%;
+	float: left;
+	background-color: #FFD325;
+}
+/*------------------------------MAIN COLUM-------------------------------*/
+.maincol{
+
+	height: 100%;
+	float: left;
+}
+.topbar{
+	text-align: center;
+	z-index: 69;
+	position: relative;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 50px;
+	overflow-x: auto;
+	overflow-y: hidden;
+  z-index: 99999999;
+}
+.topbar_inside{
+	padding: 1px;
+	height:32px; 
+	margin:0 auto;
+}
+.topbar_bg{
+	width: 100%;
+	height:32px; 
+	background-color: rgba(0,0,0,0.5);
+}
+.bottombar{
+	text-align: center;
+	z-index: 69;
+	position: relative;
+	bottom: 50px;
+	left: 0px;
+	width: 100%;
+	height: 70px;
+	overflow-x: auto;
+	overflow-y: hidden;
+  background-color: #FFF;
+  -webkit-transition: height 0.8s;
+  -moz-transition: height 0.8s;
+  transition: height 0.8s;
+}
+.botbar_inside{
+	overflow-x: auto; 
+	width: 2000px;
+}
+#board{
+	height: 580px;
+	z-index: 10000;
+	position: relative;
+	top: -50px;
+	left: 0px;
+	background-color: #FFF;
+}
+.footer{
+	clear: both;
+	padding: 5px 20px 0 20px;
+	height: 30px;
+	background: #E984FF;
+}
+/*-----------------------------Group-----------------------------*/
+.group-text-tool-0{
+	background-color: #00443F;
+}
+.group-text-tool-1{
+	background-color: #293200;
+}
+.group-text-tool-2{
+	background-color: #00245C;
+}
+.group-text-tool-3{
+	background-color: #510000;
+}
+/*--------------------button--------------------*/
+.mobile .holder{
+  width: 50px;
+}
+.desktop .holder{
+  width: 100px;
+}
+.holder{
+  padding: 4px;
+  border: 1px solid #aaa;
+  height: 50px;
+}
+.ico-btn{
+  padding: 0 3px;
+  background-color: #fff;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  cursor: pointer;
+}
+.ico-btn a{
+  display: none;
+}
+.ico-btn span{
+  font-size: 32px;
+  line-height: 39px;
+}
+.ico-btn-s{
+  color: #fff;
+  margin: 0 2px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  cursor: pointer;
+  opacity: 0.3;
+}
+.ico-btn-s:hover{
+  opacity: 0.8;
+}
+.ico-btn-s span{
+  padding: 0 3px;
+  font-size: 22px;
+  line-height: 25px;
+}
+.mif-wrap span{
+  line-height: 29px;
+}
+.item{
+  margin: 0 5px;
+  width: 80px;
+  height: 50px;
+  background-color: #f00;
+}
+.item img{
+  width: 100%;
+}
+.btn-first{
+  margin-left: 10px;
+}
+.fixsize1{
+  width: 30px;
+  height: 30px;
+  font-size: 20px;
+  font-family: arial;
+}
+.text-fix{
+  padding-top: 2px;
+}
+.fixline{
+  font-size: 20px !important;
+  line-height: 5px !important;
+}
+.rotate90{
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+.no-active{
+  opacity: 1;
+}
+.gracolor{
+  background-color: red;
+  background-image:
+    linear-gradient(
+      to right, 
+      red, 
+      #f06d06, 
+      rgb(255, 255, 0), 
+      green,
+      blue
+    );
+}
+/*----------------------------Text button--------------------------*/
+.bold{
+  opacity: 1;
+}
+.italic{
+  opacity: 1;
+}
+.underline{
+  opacity: 1;
+}
+.left{
+  opacity: 1;
+}
+.center{
+  opacity: 1;
+}
+.right{
+  opacity: 1;
+}
+/*-----------------------------Drop-down---------------------------*/
+#dropdown{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100px;
+  height: 300px;
+  border: 1px solid #999;
+  z-index: 99999;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+#dropdown h4{
+  padding: 1px 0;
+  margin: 2px;
+  background-color: rgba(191, 191, 191, 0.21);
+  font-size: 16px;
+}
+#dropdown ul {
+  padding: 0;
+  margin: 0;
+}
+#dropdown ul li{
+  list-style: none;
+  cursor: pointer;
+  color: #404040;
+}
+#dropdown ul li:hover{
+  color: #000;
+}
+#dropdown ul li.line0{
+  background-color: rgba(148, 173, 172, 0.2);
+}
+#dropdown ul li.line1{
+  background-color: rgba(255, 255, 255, 0.2);
+}
+.color_picker .item{
+  float:left;
+  border: 1px dotted #eee;
+}
+.color_picker .item:hover{
+  border-color: #333;
+}
+/*-------------------------------SHAKE-----------------------------*/
+.shake:hover {
+    -webkit-animation: shake .5s;
+    -moz-animation: shake .5s;
+    -ms-animation: shake .5s;
+    animation: shake .5s;
+}
+
+@keyframes shake {
+  0% {
+    transform: translate(0px, 0px) rotate(0deg); }
+  2% {
+    transform: translate(0.5px, -1.5px) rotate(-0.5deg); }
+  4% {
+    transform: translate(1.5px, -0.5px) rotate(-0.5deg); }
+  6% {
+    transform: translate(-0.5px, -1.5px) rotate(1.5deg); }
+  8% {
+    transform: translate(0.5px, -0.5px) rotate(-0.5deg); }
+  10% {
+    transform: translate(2.5px, 2.5px) rotate(-0.5deg); }
+  12% {
+    transform: translate(2.5px, 0.5px) rotate(-0.5deg); }
+  14% {
+    transform: translate(2.5px, 0.5px) rotate(-0.5deg); }
+  16% {
+    transform: translate(2.5px, -0.5px) rotate(1.5deg); }
+  18% {
+    transform: translate(2.5px, 2.5px) rotate(0.5deg); }
+  20% {
+    transform: translate(2.5px, 2.5px) rotate(0.5deg); }
+  22% {
+    transform: translate(2.5px, 2.5px) rotate(0.5deg); }
+  24% {
+    transform: translate(1.5px, -0.5px) rotate(-0.5deg); }
+  26% {
+    transform: translate(1.5px, 1.5px) rotate(1.5deg); }
+  28% {
+    transform: translate(-1.5px, 1.5px) rotate(0.5deg); }
+  30% {
+    transform: translate(2.5px, 1.5px) rotate(0.5deg); }
+  32% {
+    transform: translate(2.5px, 2.5px) rotate(1.5deg); }
+  34% {
+    transform: translate(-1.5px, 2.5px) rotate(0.5deg); }
+  36% {
+    transform: translate(2.5px, -1.5px) rotate(-0.5deg); }
+  38% {
+    transform: translate(1.5px, 0.5px) rotate(-0.5deg); }
+  40% {
+    transform: translate(-0.5px, -0.5px) rotate(0.5deg); }
+  42% {
+    transform: translate(-0.5px, -1.5px) rotate(0.5deg); }
+  44% {
+    transform: translate(-0.5px, 1.5px) rotate(1.5deg); }
+  46% {
+    transform: translate(0.5px, -0.5px) rotate(0.5deg); }
+  48% {
+    transform: translate(-0.5px, 1.5px) rotate(1.5deg); }
+  50% {
+    transform: translate(2.5px, 1.5px) rotate(1.5deg); }
+  52% {
+    transform: translate(-0.5px, -1.5px) rotate(-0.5deg); }
+  54% {
+    transform: translate(2.5px, 1.5px) rotate(0.5deg); }
+  56% {
+    transform: translate(-1.5px, 2.5px) rotate(0.5deg); }
+  58% {
+    transform: translate(1.5px, 2.5px) rotate(0.5deg); }
+  60% {
+    transform: translate(1.5px, -1.5px) rotate(-0.5deg); }
+  62% {
+    transform: translate(-0.5px, 0.5px) rotate(0.5deg); }
+  64% {
+    transform: translate(1.5px, 2.5px) rotate(0.5deg); }
+  66% {
+    transform: translate(-1.5px, -0.5px) rotate(1.5deg); }
+  68% {
+    transform: translate(0.5px, -1.5px) rotate(1.5deg); }
+  70% {
+    transform: translate(-0.5px, -0.5px) rotate(0.5deg); }
+  72% {
+    transform: translate(1.5px, 1.5px) rotate(1.5deg); }
+  74% {
+    transform: translate(1.5px, -0.5px) rotate(1.5deg); }
+  76% {
+    transform: translate(0.5px, 0.5px) rotate(-0.5deg); }
+  78% {
+    transform: translate(-1.5px, 0.5px) rotate(1.5deg); }
+  80% {
+    transform: translate(-1.5px, 0.5px) rotate(1.5deg); }
+  82% {
+    transform: translate(1.5px, -1.5px) rotate(-0.5deg); }
+  84% {
+    transform: translate(2.5px, -0.5px) rotate(-0.5deg); }
+  86% {
+    transform: translate(-0.5px, 0.5px) rotate(-0.5deg); }
+  88% {
+    transform: translate(-1.5px, 2.5px) rotate(0.5deg); }
+  90% {
+    transform: translate(2.5px, 0.5px) rotate(1.5deg); }
+  92% {
+    transform: translate(0.5px, -1.5px) rotate(1.5deg); }
+  94% {
+    transform: translate(-0.5px, 2.5px) rotate(-0.5deg); }
+  96% {
+    transform: translate(0.5px, 1.5px) rotate(0.5deg); }
+  98% {
+    transform: translate(1.5px, -1.5px) rotate(1.5deg); } }
+/*--------------------------------OVERRIDE-------------------------------*/
